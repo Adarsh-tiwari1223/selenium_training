@@ -42,8 +42,8 @@ try:
     submit_button.click()
 
     # Optional wait to let you see the result
-    time.sleep(3)
-    driver.save_screenshot("form_submission_result.png")
+    time.sleep(8)
+    # driver.save_screenshot("form_submission_result.png")
 
 except (NoSuchElementException, TimeoutException) as e:
     print(f"Error during automation: {e}")
